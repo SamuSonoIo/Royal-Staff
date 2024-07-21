@@ -1,0 +1,13 @@
+me\samu\royalstaff\Listener\ModerationEvent.class
+me\samu\royalstaff\Manager\CacheManager.class
+me\samu\royalstaff\Manager\ItemManager.class
+me\samu\royalstaff\Main.class
+me\samu\royalstaff\Comandi\StaffChatCommand.class
+me\samu\royalstaff\Listener\DropEvent.class
+me\samu\royalstaff\Manager\ConfigManager.class
+me\samu\royalstaff\Listener\VanishInteract.class
+me\samu\royalstaff\Listener\RandomPlayerInteract.class
+me\samu\royalstaff\Listener\StaffChatEvent.class
+me\samu\royalstaff\Comandi\StaffMode.class
+me\samu\royalstaff\Comandi\FreezeCommand.class
+me\samu\royalstaff\Listener\FreezeEvent.class

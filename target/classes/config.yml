@@ -1,0 +1,34 @@
+####################### PERMISSION #######################
+StaffMode-Perms: "RoyalCore.StaffMode"
+
+####################### MESSAGES #######################
+Not-Enough-Perms: "§7[§e!§7] Non hai abbastanza permessi!"
+# STAFFMODE
+StaffMode-Success: "§7[§e!§7] Staff Mode §aAttivata"
+StaffMode-Disabled: "§7[§e!§7] Staff Mode §cDisattivata"
+# VANISH
+Vanish-Success: "§7[§e!§7] Vanish Attivata!"
+Vanish-Disabled: "§7[§e!§7] Vanish Disattivata!"
+# PLAYER RTP
+RandomPlayer: "§7[§e!§7] Teletrasportato da {player}"
+Error-RTP: "§7[§e!§7] C'è stato un errore, sei uscito te tra tutti i giocatori! Riprova"
+# FREEZE COMMAND
+Player-Freezed: "§7[§e!§7] Hai freezato il giocatore {player}"
+Player-Unfreezed: "§7[§e!§7] Hai unfreezato il giocatore {player}"
+Been-Freezed: "§7[§e!§7] Sei stato freezato da uno §cStaff!"
+Been-Unfreezed: "§7[§e!§7] Sei stato unfreezato da uno §cStaff!"
+Invalid-Usage-Freeze: "§7[§e!§7] Uso invalido! /freeze <player>"
+# STAFF CHAT
+Joined-Chat: "§7[§e!§7] Ti sei unito all Staff Chat"
+Left-Chat: "§7[§e!§7] Hai abbandonato la chat!"
+Already-in-chat: "§7[§e!§7] Sei già nella chat"
+####################### MODERATION SYSTEM #######################
+Chat-Moderation: true
+Message-With-Words: "§7[§e!§7] Il messaggio contiene parole bannabili!"
+Staff-Notify: "§7[§e!§7] {player} ha provato a dire una parola bannabile!"
+Blocked-Words:
+  - "Bitch"
+  - "Niger"
+  - "Nigger"
+  - "Fuck"
+  - "Stupid"

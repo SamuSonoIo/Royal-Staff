@@ -1,0 +1,13 @@
+name: RoyalStaff
+version: '1.0'
+main: me.samu.royalstaff.Main
+api-version: '1.17'
+authors: [Samu]
+description: Custom Staff Plugin To Use For you Server
+commands:
+  staffmode:
+    description: Toggle Staff Mode
+  freeze:
+    description: Toggle the freeze on a player
+  staffchat:
+    description: Toggle the staff chat
