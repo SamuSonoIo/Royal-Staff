@@ -19,7 +19,6 @@ public final class Main extends JavaPlugin {
     private ItemManager itemManager;
     private CacheManager cacheManager;
     public final ArrayList<UUID> staffmode = new ArrayList<>();
-    public ArrayList<UUID> freezati = new ArrayList<>();
 
     @Override
     public void onEnable() {

@@ -27,13 +27,13 @@ public class FreezeCommand implements CommandExecutor {
                 if (Bukkit.getPlayerExact(args[0]) != null) {
                     Player target = Bukkit.getPlayerExact(args[0]);
                     assert target != null;
-                    if (!main.freezati.contains(target.getUniqueId())) {
-                        main.freezati.add(target.getUniqueId());
+                    if (!main.getCacheManager().freezati.contains(target.getUniqueId())) {
+                        main.getCacheManager().freezati.add(target.getUniqueId());
                         String nome = Objects.requireNonNull(main.getConfig().getString("Player-Freezed")).replace("{player}", target.getName());
                         player.sendMessage(nome);
                         target.sendMessage(Objects.requireNonNull(main.getConfig().getString("Been-Freezed")).replace("{player}", target.getName()));
                     } else {
-                        main.freezati.remove(target.getUniqueId());
+                        main.getCacheManager().freezati.remove(target.getUniqueId());
                         String nome = Objects.requireNonNull(main.getConfig().getString("Player-Unfreezed")).replace("{player}", target.getName());
                         player.sendMessage(nome);
                         target.sendMessage(Objects.requireNonNull(main.getConfig().getString("Been-Unfreezed")).replace("{player}", target.getName()));
